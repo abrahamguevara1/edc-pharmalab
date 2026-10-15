@@ -1,0 +1,354 @@
+{
+    "id": "root",
+    "label": "Ciclo Vida Analítico",
+    "tarjeta": {
+        "titulo": "Ciclo Vida Analítico",
+        "texto": "El Perfil Analítico de Destino (ATP) es una descripción prospectiva que establece los requisitos de desempeño necesarios para una medición analítica, definiendo la calidad requerida del valor reportable en términos de exactitud (sesgo) y precisión o error analítico total. Sirve como guía transversal durante todo el ciclo de vida, orienta la selección de la tecnología analítica de forma idealmente independiente y garantiza que los resultados obtenidos en el laboratorio permitan tomar decisiones de conformidad confiables sobre el producto."
+    },
+    "children": [
+        {
+            "id": "rama-1",
+            "label": "Perfil Objetivo Analítico (ATP)",
+            "tarjeta": {
+                "titulo": "Perfil Objetivo Analítico (ATP)",
+                "texto": "El Perfil Analítico de Destino (ATP) define los criterios de desempeño necesarios para un método analítico."
+            },
+            "children": [
+                {
+                    "id": "rama-1-1",
+                    "label": "Propósito y Uso Previsto",
+                    "tarjeta": {
+                        "titulo": "Propósito y Uso Previsto",
+                        "texto": "El Propósito y Uso Previsto describe el contexto operativo y la aplicación específica para la cual se ejecutará el procedimiento analítico, como pruebas de liberación comercial, monitoreo de estabilidad, controles en proceso (IPC) o liberación en tiempo real (RTRT). Este elemento determina las exigencias de desempeño requeridas para el método y orienta la selección de la tecnología analítica y del entorno operativo adecuado (off-line, at-line o in-line)."
+                    },
+                    "children": [
+                        {
+                            "id": "rama-1-1-1",
+                            "label": "Atributos del Producto",
+                            "tarjeta": {
+                                "titulo": "Atributos del Producto",
+                                "texto": "Los Atributos del Producto son las propiedades físicas, químicas, biológicas o microbiológicas específicas del material farmacéutico que requieren ser medidas y controladas mediante el procedimiento analítico. Su correcta identificación deriva del entendimiento del producto y condiciona los criterios de especificidad, exactitud y rango reportable que debe cumplir el método analítico seleccionado."
+                            }
+                        },
+                        {
+                            "id": "rama-1-1-2",
+                            "label": "Criterios de Rendimiento",
+                            "tarjeta": {
+                                "titulo": "Criterios de Rendimiento",
+                                "texto": "Los Criterios de Rendimiento son los límites cuantitativos, rangos o estados deseados asignados a las características de desempeño (como exactitud, precisión o especificidad) para asegurar la calidad del valor reportable. Estos criterios establecen el máximo nivel de error analítico tolerable para garantizar que las decisiones de conformidad sobre el lote sean estadísticamente confiables."
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": "rama-1-2",
+                    "label": "Conexión de Calidad",
+                    "tarjeta": {
+                        "titulo": "Conexión de Calidad",
+                        "texto": "La Conexión de Calidad es el vínculo directo que existe entre los requisitos de calidad del medicamento y la capacidad de medición del laboratorio. Asegura que los criterios de aceptación del ATP estén alineados con el nivel de control y la gestión de riesgos requeridos para salvaguardar la seguridad y eficacia clínica del paciente."
+                    },
+                    "children": [
+                        {
+                            "id": "rama-1-2-1",
+                            "label": "Calidad del Producto (QTPP)",
+                            "tarjeta": {
+                                "titulo": "Calidad del Producto (QTPP)",
+                                "texto": "El Perfil de Calidad del Producto Objetivo (QTPP) es una definición prospectiva de las características de calidad del medicamento necesarias para garantizar la seguridad y eficacia deseadas. El ATP se deriva directamente del QTPP, asegurando que las especificaciones analíticas respondan de manera coherente a las metas de calidad globales del producto."
+                            }
+                        },
+                        {
+                            "id": "rama-1-2-2",
+                            "label": "Atributos de Calidad (CQAs)",
+                            "tarjeta": {
+                                "titulo": "Atributos de Calidad (CQAs)",
+                                "texto": "Los Atributos Críticos de Calidad (CQAs) son las propiedades físicas, químicas, biológicas o microbiológicas del producto que deben mantenerse dentro de límites definidos para garantizar su calidad. El ATP identifica los CQAs que requieren prueba analítica y establece exigencias de exactitud y precisión según la criticidad del CQA y el ancho de su límite de especificación."
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": "rama-1-3",
+                    "label": "Ejemplos y Definición",
+                    "tarjeta": {
+                        "titulo": "Ejemplos y Definición",
+                        "texto": "Ejemplos y Definición del ATP abarca la formulación práctica y la estructura normativa utilizada para redactar un ATP en el expediente regulatorio. Puede expresarse mediante criterios individuales separados para cada característica de desempeño (como sesgo y precisión independientes) o mediante un criterio combinado que restrinja la distribución del error total."
+                    },
+                    "children": [
+                        {
+                            "id": "rama-1-3-1",
+                            "label": "Rango y Precisión",
+                            "tarjeta": {
+                                "titulo": "Rango y Precisión",
+                                "texto": "Rango y Precisión definen la dispersión e intervalo operativo del método: el rango reportable abarca las concentraciones donde el método ofrece exactitud y precisión aceptables, mientras que la precisión mide la variabilidad o grado de dispersión entre mediciones repetidas en condiciones de rutina o intermedias. En el ATP, la precisión se especifica fijando límites máximos admisibles de desviación estándar relativa (%RSD) o coeficiente de variación dentro del rango evaluado."
+                            }
+                        },
+                        {
+                            "id": "rama-1-3-2",
+                            "label": "Error Analítico Total (TAE)",
+                            "tarjeta": {
+                                "titulo": "Error Analítico Total (TAE)",
+                                "texto": "El Error Analítico Total (TAE) representa la combinación acumulada del error sistemático (sesgo) y del error aleatorio (imprecisión) en un resultado de prueba. Un enfoque común para definir el ATP exige que la distribución completa del TAE para el valor reportable se mantenga dentro de un límite máximo tolerable, reduciendo así la probabilidad de tomar decisiones erróneas sobre la conformidad del producto."
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "rama-2",
+            "label": "Fase 1 Diseño de Método",
+            "tarjeta": {
+                "titulo": "Fase 1 Diseño de Método",
+                "texto": "La Fase 1 (Diseño de Método) abarca la recopilación de conocimientos, el desarrollo experimental de la preparación de muestras y de las condiciones instrumentales, así como las evaluaciones de riesgo para definir un procedimiento analítico capaz de cumplir con el Perfil Analítico de Destino (ATP). Su objetivo principal es identificar condiciones operativas que minimicen el sesgo, optimicen la variabilidad, aporten la robustez deseada y permitan establecer tanto la Estrategia de Control Analítico (ACS) preliminar como la estrategia de replicación inicial para el valor reportable."
+            },
+            "children": [
+                {
+                    "id": "rama-2-1",
+                    "label": "Desarrollo y Conocimiento",
+                    "tarjeta": {
+                        "titulo": "Desarrollo y Conocimiento",
+                        "texto": "El Desarrollo y Conocimiento es el pilar de la Fase 1 en el que se integran la comprensión científica del producto, del proceso y de la tecnología con la información previa disponible. Permite aprovechar conocimientos internos sobre la fisicoquímica de los analitos, literatura técnica, buenas prácticas y plataformas analíticas preexistentes para sustentar la selección tecnológica y guiar de manera eficiente las actividades experimentales de optimización."
+                    },
+                    "children": [
+                        {
+                            "id": "rama-2-1-1",
+                            "label": "Recopilación de Información",
+                            "tarjeta": {
+                                "titulo": "Recopilación de Información",
+                                "texto": "La Recopilación de Información consiste en reunir proactivamente todos los datos científicos y técnicos relevantes antes de iniciar la experimentación, tales como las estructuras químicas de los analitos, sus propiedades fisicoquímicas, estándares de referencia, reactivos, instrumentación y procedimientos de análisis existentes para materiales similares."
+                            }
+                        },
+                        {
+                            "id": "rama-2-1-2",
+                            "label": "Selección de Tecnología",
+                            "tarjeta": {
+                                "titulo": "Selección de Tecnología",
+                                "texto": "La Selección de Tecnología es la elección justificada de la técnica e instrumentación analítica adecuada en función del propósito previsto, el alcance del método y las exigencias del ATP. Implica evaluar diversas alternativas (como HPLC, SFC, NIR o bioensayos), la aplicabilidad de tecnologías de plataforma preexistentes y el entorno operativo requerido."
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": "rama-2-2",
+                    "label": "Gestión de Riesgos (QRM)",
+                    "tarjeta": {
+                        "titulo": "Gestión de Riesgos (QRM)",
+                        "texto": "La Gestión de Riesgos de Calidad (QRM) en la Fase 1 es un proceso sistemático para evaluar, controlar y mitigar de manera continua los riesgos que amenazan la calidad del valor reportable a lo largo de todas las etapas del procedimiento. Permite identificar qué parámetros del método, insumos o condiciones ambientales influyen en el sesgo y la precisión."
+                    },
+                    "children": [
+                        {
+                            "id": "rama-2-2-1",
+                            "label": "Evaluación Inicial de Riesgos",
+                            "tarjeta": {
+                                "titulo": "Evaluación Inicial de Riesgos",
+                                "texto": "La Evaluación Inicial de Riesgos es la identificación y clasificación temprana de todas las variables y pasos operacionales (preparación de muestras, reactivos, parámetros instrumentales) que potencialmente impactan el desempeño del método y el cumplimiento del ATP."
+                            }
+                        },
+                        {
+                            "id": "rama-2-2-2",
+                            "label": "Estudios de Robustez (DoE)",
+                            "tarjeta": {
+                                "titulo": "Estudios de Robustez (DoE)",
+                                "texto": "Los Estudios de Robustez (DoE) evalúan la capacidad del procedimiento para mantenerse inalterado ante variaciones pequeñas y deliberadas en sus parámetros, garantizando su idoneidad durante el uso rutinario."
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": "rama-2-3",
+                    "label": "Estrategia de Control Inicial",
+                    "tarjeta": {
+                        "titulo": "Estrategia de Control Inicial",
+                        "texto": "La Estrategia de Control Inicial (o ACS preliminar) es el conjunto planificado de controles derivado del entendimiento científico y del análisis de riesgos para asegurar que el procedimiento analítico opere según lo diseñado y cumpla con el ATP."
+                    },
+                    "children": [
+                        {
+                            "id": "rama-2-3-1",
+                            "label": "Controles Operacionales",
+                            "tarjeta": {
+                                "titulo": "Controles Operacionales",
+                                "texto": "Los Controles Operacionales corresponden a los límites, rangos e instrucciones específicas establecidas para los parámetros del procedimiento, la preparación y estabilidad de soluciones/estándares, el uso del equipamiento y las pruebas de idoneidad del sistema (SST) y de muestras."
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "rama-3",
+            "label": "Cualificación",
+            "tarjeta": {
+                "titulo": "Cualificación",
+                "texto": "La Cualificación del Desempeño del Procedimiento (Etapa 2 o APPQ) engloba todas las actividades de laboratorio diseñadas para confirmar que un método analítico es apto para su propósito en el entorno donde operará de manera rutinaria. Esta fase verifica experimentalmente que el método genera valores reportables que cumplen de forma consistente con los criterios de aceptación del Perfil Analítico de Destino (ATP)."
+            },
+            "children": [
+                {
+                    "id": "rama-3-1",
+                    "label": "Validación Analítica",
+                    "tarjeta": {
+                        "titulo": "Validación Analítica",
+                        "texto": "La Validación Analítica es el proceso documentado mediante estudios de laboratorio que demuestra que un procedimiento analítico no compendial reúne las condiciones de desempeño necesarias para su uso previsto."
+                    },
+                    "children": [
+                        {
+                            "id": "rama-3-1-1",
+                            "label": "Protocolo de Validación",
+                            "tarjeta": {
+                                "titulo": "Protocolo de Validación",
+                                "texto": "El Protocolo de Validación es el documento formal y preaprobado que establece el diseño experimental, la metodología detallada y los criterios de aceptación que sustentan el estudio de validación."
+                            }
+                        },
+                        {
+                            "id": "rama-3-1-2",
+                            "label": "Características de Rendimiento",
+                            "tarjeta": {
+                                "titulo": "Características de Rendimiento",
+                                "texto": "Las Características de Rendimiento son las propiedades fundamentales e independientes de la tecnología (como especificidad/selectividad, exactitud, precisión, rango y límites de detección/cuantificación) que garantizan la calidad del valor reportable."
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": "rama-3-2",
+                    "label": "Verificación Compendial",
+                    "tarjeta": {
+                        "titulo": "Verificación Compendial",
+                        "texto": "La Verificación Compendial es la evaluación analítica documentada que demuestra que un procedimiento ya validado y publicado en una farmacopea oficial puede aplicarse de manera precisa y exacta bajo las condiciones reales de uso del laboratorio."
+                    },
+                    "children": [
+                        {
+                            "id": "rama-3-2-1",
+                            "label": "Procedimientos USP y NF",
+                            "tarjeta": {
+                                "titulo": "Procedimientos USP y NF",
+                                "texto": "Los Procedimientos USP y NF son metodologías analíticas estandarizadas y reconocidas oficialmente por las monografías y capítulos generales de las farmacopeas."
+                            }
+                        },
+                        {
+                            "id": "rama-3-2-2",
+                            "label": "Verificación de Uso",
+                            "tarjeta": {
+                                "titulo": "Verificación de Uso",
+                                "texto": "La Verificación de Uso es la ejecución experimental de un protocolo de verificación en el que el laboratorio evalúa el procedimiento compendial utilizando sus propios reactivos, equipos, analistas y matriz de producto."
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": "rama-3-3",
+                    "label": "Transferencia de Métodos",
+                    "tarjeta": {
+                        "titulo": "Transferencia de Métodos",
+                        "texto": "La Transferencia de Métodos es el proceso documentado mediante el cual se califica a un laboratorio receptor para ejecutar un procedimiento analítico originado en un laboratorio emisor."
+                    },
+                    "children": [
+                        {
+                            "id": "rama-3-3-1",
+                            "label": "Protocolo Interlaboratorios",
+                            "tarjeta": {
+                                "titulo": "Protocolo Interlaboratorios",
+                                "texto": "El Protocolo Interlaboratorios es el plan preaprobado que rige la ejecución del estudio de transferencia entre los sitios involucrados."
+                            }
+                        },
+                        {
+                            "id": "rama-3-3-2",
+                            "label": "Evaluación de Precisión",
+                            "tarjeta": {
+                                "titulo": "Evaluación de Precisión",
+                                "texto": "La Evaluación de Precisión en la transferencia examina la variabilidad interlaboratorio y la reproducibilidad técnica al comparar los resultados generados por el sitio emisor y el receptor."
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "rama-4",
+            "label": "Fase 3 Verificación Continua",
+            "tarjeta": {
+                "titulo": "Fase 3 Verificación Continua",
+                "texto": "La Fase 3 (Verificación Continua del Desempeño u OPPV) abarca el monitoreo sistemático y continuo del procedimiento analítico durante su uso rutinario comercial para confirmar que se mantiene en un estado de control estadístico y sigue cumpliendo con el Perfil Analítico de Destino (ATP)."
+            },
+            "children": [
+                {
+                    "id": "rama-4-1",
+                    "label": "Monitoreo en Rutina",
+                    "tarjeta": {
+                        "titulo": "Monitoreo en Rutina",
+                        "texto": "El Monitoreo en Rutina consiste en la recopilación y evaluación periódica y estructurada de los datos generados durante la ejecución habitual del método o a partir del análisis de muestras de control."
+                    },
+                    "children": [
+                        {
+                            "id": "rama-4-1-1",
+                            "label": "Análisis de Tendencias",
+                            "tarjeta": {
+                                "titulo": "Análisis de Tendencias",
+                                "texto": "El Análisis de Tendencias es el examen longitudinal de los indicadores de desempeño analítico a lo largo del tiempo para identificar patrones no aleatorios, sesgos emergentes o la degradación progresiva de reactivos y columnas."
+                            }
+                        },
+                        {
+                            "id": "rama-4-1-2",
+                            "label": "Control Estadístico de Procesos",
+                            "tarjeta": {
+                                "titulo": "Control Estadístico de Procesos",
+                                "texto": "El Control Estadístico de Procesos es la aplicación de herramientas estadísticas, principalmente gráficos de control (como cartas de Shewhart I-MR), para evaluar la variabilidad del método analítico."
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": "rama-4-2",
+                    "label": "Gestión de Cambios",
+                    "tarjeta": {
+                        "titulo": "Gestión de Cambios",
+                        "texto": "La Gestión de Cambios es el proceso estructurado y basado en la gestión de riesgos de calidad (QRM) mediante el cual se evalúan, justifican e implementan las modificaciones realizadas al procedimiento analítico."
+                    },
+                    "children": [
+                        {
+                            "id": "rama-4-2-1",
+                            "label": "Revalidación Parcial o Total",
+                            "tarjeta": {
+                                "titulo": "Revalidación Parcial o Total",
+                                "texto": "La Revalidación Parcial o Total es la evaluación experimental documentada que confirma que un procedimiento analítico modificado mantiene sus características críticas de desempeño."
+                            }
+                        },
+                        {
+                            "id": "rama-4-2-2",
+                            "label": "Estudios de Comparabilidad",
+                            "tarjeta": {
+                                "titulo": "Estudios de Comparabilidad",
+                                "texto": "Los Estudios de Comparabilidad (o estudios de puente / bridging studies) son evaluaciones analíticas y estadísticas diseñadas para comparar el desempeño de un procedimiento nuevo o modificado."
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": "rama-4-3",
+                    "label": "Mantenimiento del Modelo",
+                    "tarjeta": {
+                        "titulo": "Mantenimiento del Modelo",
+                        "texto": "El Mantenimiento del Modelo engloba el conjunto de procedimientos iterativos y estrategias del sistema de calidad diseñados para asegurar la validez, precisión y capacidad predictiva continua de los modelos de calibración multivariados."
+                    },
+                    "children": [
+                        {
+                            "id": "rama-4-3-1",
+                            "label": "Diagnóstico de Valores Atípicos",
+                            "tarjeta": {
+                                "titulo": "Diagnóstico de Valores Atípicos",
+                                "texto": "El Diagnóstico de Valores Atípicos comprende los algoritmos y herramientas estadísticas integradas en el software que verifican en tiempo real si los datos espectrales o analíticos de una muestra caen dentro de los límites del espacio de calibración."
+                            }
+                        },
+                        {
+                            "id": "rama-4-3-2",
+                            "label": "Pruebas Confirmatorias",
+                            "tarjeta": {
+                                "titulo": "Pruebas Confirmatorias",
+                                "texto": "Las Pruebas Confirmatorias consisten en la comparación periódica o guiada por eventos de los resultados predichos por el modelo multivariado frente a los valores obtenidos mediante un procedimiento analítico de referencia."
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
